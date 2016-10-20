@@ -4771,6 +4771,7 @@
   // AMD.
   if (typeof define == 'function' && define.amd) {
     define(function () {
+      globalScope.Decimal = Decimal;
       return Decimal;
     });
 
